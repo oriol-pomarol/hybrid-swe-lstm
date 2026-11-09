@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below, and also cite the paper (in preparation)."
+title: "Hybrid LSTM for daily Northern Hemisphere snow water equivalent"
+abstract: >-
+  Code to train and evaluate a hybrid LSTM that predicts daily snow water
+  equivalent from meteorological and topographic predictors and ERA5-Land SWE,
+  trained on in situ SWE from the NH-SWE dataset, and to compare it with a
+  plain data-driven LSTM and ERA5-Land.
+type: software
+authors:
+  - family-names: "Pomarol Moya"
+    given-names: "Oriol"
+    affiliation: "Utrecht University"
+    orcid: "https://orcid.org/0009-0000-2222-9365"
+version: 1.0.0
+license: MIT
+keywords:
+  - snow water equivalent
+  - LSTM
+  - hybrid modelling
+  - machine learning
+  - ERA5-Land
+  - Northern Hemisphere

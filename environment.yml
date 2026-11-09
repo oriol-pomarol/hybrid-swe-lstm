@@ -1,0 +1,25 @@
+name: snow_nh
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python
+  # Data handling
+  - numpy
+  - pandas
+  - xarray
+  - netcdf4
+  - scipy
+  - tqdm
+  # Rasters and geospatial
+  - rasterio
+  - rioxarray
+  - geopandas
+  - pyproj
+  # Modelling
+  - pytorch
+  - scikit-learn
+  # Plotting and notebooks
+  - matplotlib
+  - jupyter
+  - ipykernel

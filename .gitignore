@@ -1,0 +1,14 @@
+results/**
+!results/**/
+!results/**/.gitkeep
+data/**
+!data/**/
+!data/**/.gitkeep
+.vscode
+*.code-workspace
+*.ipynb
+!notebooks/figures_*.ipynb
+src/common/local_paths.py
+__pycache__/
+/out/
+/temp/
